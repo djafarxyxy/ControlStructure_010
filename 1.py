@@ -1,0 +1,14 @@
+# Input student percentage
+percentage = float(input("masukan persentase nilai siswa: "))
+
+# Evaluate performance
+if percentage >= 90:
+    print("Excellent performance")
+elif percentage >= 80:
+    print("Very Good performance")
+elif percentage >= 70:
+    print("Good performance")
+elif percentage >= 60:
+    print("Average performance")
+else:
+    print("Needs Improvement")
