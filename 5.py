@@ -1,5 +1,4 @@
-# Input n value
-n = int(input("Enter a value for n: "))
+n = int(input("Masukan nilai n: "))
 
 for i in range(1, n+1):
     for j in range(i):

@@ -1,12 +1,12 @@
-# Input three numbers
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-c = float(input("Enter third number: "))
+a = int(input("angka pertama: "))
+b = int(input("angka kedua: "))
+c = int(input("angka ketiga: "))
 
-# Find and print the largest
-if a >= b and a >= c:
-    print("The largest number is:", a)
-elif b >= a and b >= c:
-    print("The largest number is:", b)
+if a > b and a > c:
+    print("angka terbesar:", a)
+elif b > a and b > c:
+    print("angka terbesar:", b)
+elif c > a and c > b:
+    print("angka terbesar:", c)
 else:
-    print("The largest number is:", c)
+    print("tidak ada angka terbesar")
